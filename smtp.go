@@ -7,8 +7,7 @@ import (
 )
 
 /**
-	Modified from https://gist.github.com/jpillora/cb46d183eca0710d909a
-	Thank you very much.
+	from https://github.com/tangingw/go_smtp
 **/
 
 // SMTP_SERVER
