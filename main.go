@@ -60,7 +60,7 @@ func sendEmail() {
 	sender := NewSender("homeappmqtt@gmail.com", os.Getenv("HOMEAPPPASSW"))
 	Receiver := []string{"agarcia@cittec.es"}
 
-	Subject := "Sensor Distance Activated!"
+	Subject := "Distance Sensor Activated!"
 	bodyMessage := "It seems someone is in..."
 
 	sender.SendMail(Receiver, Subject, bodyMessage)
